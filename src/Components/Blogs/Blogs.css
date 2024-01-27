@@ -1,0 +1,79 @@
+.blog-card-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.blog-card-list img {
+  border-radius: 10px;
+}
+
+.blog-heading {
+  margin: 0;
+  padding-top: 150px;
+  padding-bottom: 90px;
+  font-size: 4rem;
+  color: #514d46;
+  font-family: "MangoSans Regular";
+  margin-top: 18vh;
+}
+
+.scroll-down {
+  color: #514d46;
+  font-size: 1.5rem;
+  margin-bottom: 50px;
+}
+
+.blog-card {
+  background-color: #514d46;
+  color: #d9d6cc;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 30px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.blog-card img {
+  width: 90%;
+  height: 50%;
+  object-fit: cover;
+}
+
+.btn-quiz a {
+  text-decoration: none;
+  color: #514d46;
+}
+
+.blog-post {
+  padding-top: 18vh;
+  background-color: #d9d6cc;
+  color: #514d46;
+  height: 100%;
+}
+
+.blog-post h1 {
+  font-size: 3rem;
+  padding: 30px;
+}
+
+.blog-post p {
+  width: 75%;
+  text-align: justify;
+  margin: auto;
+  padding-bottom: 70px;
+}
+
+.blog-post p::first-letter {
+  font-size: 3em;
+  font-weight: bold;
+  margin-right: 0.1em;
+  float: left;
+  line-height: 1;
+}
+
+.blog-banner {
+  width: 75%;
+  border-radius: 20px;
+  height: 30vh;
+  margin-top: 40px;
+  object-fit: cover;
+}

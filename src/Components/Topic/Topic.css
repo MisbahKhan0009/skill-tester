@@ -1,0 +1,22 @@
+.card {
+  background-color: #514d46;
+  color: #d9d6cc;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 30px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.card img {
+  width: 50%;
+}
+
+.btn-quiz {
+  background-color: #d9d6cc;
+  color: #514d46;
+  border: 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+}

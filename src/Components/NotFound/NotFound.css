@@ -1,0 +1,39 @@
+.error-page {
+  height: 100vh;
+  background-color: #d9d6cc;
+  color: #514d46;
+}
+
+.not-found {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70%;
+  width: 100%;
+}
+.error-code {
+  font-size: 10rem;
+  font-family: "Courier New", Courier, monospace;
+}
+.error-message {
+  font-size: 5rem;
+  font-weight: 700;
+}
+
+.go-home a {
+  text-decoration: none;
+  color: #d9d6cc;
+  font-size: 2rem;
+  font-weight: 700;
+}
+.go-home {
+  background-color: #514d46;
+  border: 0;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 30px;
+}

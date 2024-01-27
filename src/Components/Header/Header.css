@@ -1,0 +1,33 @@
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #d9d6cc;
+  background-color: #514d46;
+  height: 18vh;
+  font-size: 1.2rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000; 
+}
+
+.links a {
+  color: #d9d6cc;
+  text-decoration: none;
+  margin: 20px;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+.links {
+  padding-right: 100px;
+}
+
+.logo {
+  font-family: "Gondola SD - Swash", sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-left: 100px;
+  padding-top: 15px;
+}

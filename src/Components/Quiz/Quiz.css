@@ -1,0 +1,10 @@
+.quiz {
+  padding-top: 25vh;
+  background-color: #d9d6cc;
+  color: #514d46;
+  height: 100%;
+}
+.question {
+  width: 50%;
+  display: flex;
+}

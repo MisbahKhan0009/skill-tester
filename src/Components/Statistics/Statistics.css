@@ -1,0 +1,16 @@
+.chart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #d9d6cc;
+  color: #514d46;
+  height: 82vh;
+  padding-top: 18vh;
+  margin-bottom: 0;
+  border: 2px soli #d9d6cc;
+}
+.chart-container h1 {
+  font-size: 2rem;
+  padding: 20px;
+}
